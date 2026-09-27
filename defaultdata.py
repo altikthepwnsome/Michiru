@@ -5,7 +5,6 @@ defaultdata = {
         "settings": {
             "save_removed_cards": True,
             "save_used_cards": False,
-            "notify_suggestions": True,
         },
         "decks": dict(),
         "savedcards": dict(),

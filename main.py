@@ -119,7 +119,6 @@ async def set_qotd(ctx: discord.Interaction, parameter, boolean):
 choicessettings = [
     discord.OptionChoice(name="Display streak right next to your name? (Example: name 25🔥)", value="display_streak"),
     discord.OptionChoice(name="Notify you when you lose your streak?", value="dm_streak_loss"),
-    discord.OptionChoice(name="Notify a user when their suggestion is approved or denied?", value="notify_suggestions"),
 ]
 @settings.command(name="self", description="Edits your parameters (can be used by anyone).")
 @discord.option(name="parameter", choices=choicessettings, description="A parameter to set.")
